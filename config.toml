@@ -1,13 +1,11 @@
 baseURL = "https://rbhan.github.io"
 publishDir = "rbhan.github.io"
-
-# The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
 title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
-author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
+author = "rbhan"
+copyright = "Copyright © 2021, rbhan."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -17,8 +15,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  blog = "/:slug/"
-  tags = "/blog/:slug"
+  posts = "/:slug/"
+  tags = "/posts/:slug"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
